@@ -45,7 +45,7 @@ function UploadFromFrontend() {
           name="file"
           type="file"
           onChange={handleFileInput}
-          accept="image/*"
+          // accept="image/*"
         />
         <button type="submit">SUBMIT</button>
       </form>
